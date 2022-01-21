@@ -26,3 +26,11 @@ print("number of elements in 4 present in t4: ", t4.count(4))
 # it returns the index of a specific element
 t5 = (0, 1, 2, 3, 4, 5, 6, 7)
 print("index of 3 in t5 : ", t5.index(3))
+
+# checking whether a particular element
+# exists in the tuple or not
+t6 = (0, 1, 2, 3)
+print("Checking whether '2' is in t6 : ", 2 in t6)
+print("checking whether '4' is in t6 : ", 4 in t6)
+
+
